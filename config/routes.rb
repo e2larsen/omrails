@@ -11,5 +11,6 @@ Rails.application.routes.draw do
   get 'pricing' => 'pages#pricing'
   get 'blog' => 'pages#blog'
   get 'contactus' => 'pages#contactus'
+  get 'details' => 'pages#details'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
